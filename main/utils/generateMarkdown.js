@@ -1,10 +1,31 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+
+  switch (license) {
+    case 'Apache 2.0':
+        license = `[![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+        break;
+    case 'GNU GPL v3': 
+       license = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
+        break;
+    case 'The Perl License': 
+       license = `[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)`
+        break;
+    case 'The MIT License': 
+       license = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+        break;
+    default:
+        license = [];
+  }
+  return license;
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+ 
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -12,9 +33,10 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `#  ${data.title}
+  
+  return  `#  ${data.title}
 
-  [![License: ${data.license}][shield-license]](#)
+ ${renderLicenseBadge(data.license)}
 
 
   ## Description
@@ -34,19 +56,22 @@ function generateMarkdown(data) {
   
   ## Installation
 
-  
-  ${data.install}
-   
-  
+  \`\`\`
+  ${data.install} 
+  \`\`\`
+
   ## Usage
-  
+
   
   ${data.usage}
- 
-  
+
+
   ## Tests
-  
+
+  \`\`\`
   ${data.tests}
+  \`\`\`
+
 
   ## Contributing
   
@@ -56,7 +81,7 @@ function generateMarkdown(data) {
   
   Any Quesions about the application can directed to me at:
   
-  GitHub: github.com/${data.github}
+  GitHub: https://github.com/${data.github}
   
   Email : ${data.email}
   
