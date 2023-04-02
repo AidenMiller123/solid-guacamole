@@ -1,11 +1,11 @@
 #  Readme Generator
 
-  [![License: The MIT License][shield-license]](#)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
   ## Description
   
-  generates a readme
+  generates a readme file for your project
   
 
   
@@ -20,29 +20,32 @@
   
   ## Installation
 
-  
-  npm i
-   
-  
+  ```
+  npm i 
+  ```
+
   ## Usage
+
   
-  
-  nothing
- 
-  
+  Nothing
+
+
   ## Tests
-  
+
+  ```
   npm run test
+  ```
+
 
   ## Contributing
   
-  everything
+  Everything
   
   ## Questions
   
   Any Quesions about the application can directed to me at:
   
-  GitHub: github.com/AidenMiller123
+  GitHub: https://github.com/AidenMiller123
   
   Email : Miller1676@gmail.com
   
