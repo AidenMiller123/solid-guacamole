@@ -1,9 +1,10 @@
-// TODO: Include packages needed for this application
+// These are imports for the inquirer, fs, and generateMarkdown function
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
+// This starts the inquirer for the user
 inquirer
-// TODO: Create an array of questions for user input
+// Array of question the user will be asked
 .prompt ([{
     type: 'input',
     message: 'What is your GitHub username?',
@@ -59,17 +60,12 @@ inquirer
       },
     
 ])
+// after the user makes their inputs fs writes a readme based on the user inputs
 .then((data) => {
     readMePageContent = generateMarkdown(data);
-// TODO: Create a function to write README file
+
     fs.writeFile('README.md', readMePageContent, (err) =>
      err ? console.error(err) : console.log('Your Readme file was succesfully made!'))
     
   })
 
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
