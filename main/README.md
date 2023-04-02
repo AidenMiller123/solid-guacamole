@@ -5,7 +5,7 @@
 
   ## Description
   
-  generates a readme file for your project
+  Generates a Readme file for your project
   
 
   
@@ -26,20 +26,20 @@
 
   ## Usage
 
-  
-  Nothing
-
+  ```
+  node index.js
+  ```
 
   ## Tests
 
   ```
-  npm run test
+  npm run tests
   ```
 
 
   ## Contributing
   
-  Everything
+  Find issues to help contribute in repo at AidenMiller123
   
   ## Questions
   
@@ -47,7 +47,7 @@
   
   GitHub: https://github.com/AidenMiller123
   
-  Email : Miller1676@gmail.com
+  Email : Millerboy1676@gmail.com
   
   
   ## License

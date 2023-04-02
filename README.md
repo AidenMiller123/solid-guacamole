@@ -25,10 +25,16 @@
   ```
 
   ## Usage
+ Video of Application:
+ https://watch.screencastify.com/v/jyCACbWYtDedmKiqgApA
 
-  
-  Nothing
+ Screenshot of prompts:
 
+ ![image](https://user-images.githubusercontent.com/123018143/229375600-26873c8e-bf60-4f3d-8470-34126167ccb5.png)
+
+ Screenshot of generated Readme:
+ 
+ ![image](https://user-images.githubusercontent.com/123018143/229375648-f326e835-d6a1-4a96-a732-91fddda40f3b.png)
 
   ## Tests
 
@@ -39,7 +45,7 @@
 
   ## Contributing
   
-  Everything
+
   
   ## Questions
   
