@@ -3,28 +3,29 @@
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-  ## Description
+## Description
   
-  generates a readme file for your project
+ Generates a readme file for your project. Based on the user inputs this 
+ application will take in the repsonses and generate a readme that includes
+ all the users inputs.
   
 
   
-  ## Table of Contents
+## Table of Contents
   
   - [Installation](#installation)
   - [Usage](#usage)
   - [Tests](#tests)
-  - [Contributing](#contributing)
   - [Questions](#questions)
   - [License](#license)
   
-  ## Installation
+## Installation
 
   ```
   npm i 
   ```
 
-  ## Usage
+## Usage
  Video of Application:
  https://watch.screencastify.com/v/jyCACbWYtDedmKiqgApA
 
@@ -36,18 +37,13 @@
  
  ![image](https://user-images.githubusercontent.com/123018143/229375648-f326e835-d6a1-4a96-a732-91fddda40f3b.png)
 
-  ## Tests
+## Tests
 
   ```
   npm run test
   ```
 
-
-  ## Contributing
-  
-
-  
-  ## Questions
+## Questions
   
   Any Quesions about the application can directed to me at:
   
@@ -56,6 +52,6 @@
   Email : Miller1676@gmail.com
   
   
-  ## License
+## License
   
   This project is licensed under The MIT License
